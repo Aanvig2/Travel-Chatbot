@@ -8,7 +8,7 @@
 - **Interactive Chatbot**: The chatbot interacts with users by asking questions about their destination, type of vacation, budget, travel mode, and more.
 - **Detailed Itineraries**: After gathering information, TravelTweak provides a full day-to-day itinerary, including hotel recommendations, activities, and dining suggestions.
 
-This project is deployed on https://aanvig2.github.io/Travel-Chatbot/
+This project is deployed on https://travel-tweak.vercel.app/
 
 ## Installation Instructions
 
