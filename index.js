@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const LLAMA_API_URL = "https://phi.us.gaianet.network/v1/chat/completions";
+const API_URL = "https://phi.us.gaianet.network/v1/chat/completions";
 
 
 const tripQuestions = [
@@ -80,7 +80,7 @@ Give recommendations for "${userResponses.accomodationAnswer}" type of accommoda
 
       try {
         const response = await axios.post(
-          LLAMA_API_URL,
+          API_URL,
           {
             messages: [
               { role: "system", content: "You are a helpful assistant." },
